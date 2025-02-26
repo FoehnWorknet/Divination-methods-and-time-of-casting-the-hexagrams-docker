@@ -1,0 +1,36 @@
+{
+  "name": "iching-divination",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4500",
+    "build": "next build",
+    "start": "next start -p 4500",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "critters": "^0.0.20",
+    "d3": "^7.8.5",
+    "framer-motion": "^10.16.16",
+    "markmap-common": "^0.15.3",
+    "markmap-lib": "^0.15.3",
+    "markmap-view": "^0.15.3",
+    "next": "^14.0.4",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "22.8.1",
+    "@types/react": "18.3.12",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "typescript": "5.6.3"
+  }
+}
