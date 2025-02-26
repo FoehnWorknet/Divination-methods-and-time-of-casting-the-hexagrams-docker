@@ -125,7 +125,7 @@ export async function getLunarDate(date: Date): Promise<LunarInfo> {
 
     // 构建 URL 查询参数
     const params = new URLSearchParams({
-      key: '91539453b0ba6da1eacd002ef7b10dd2',
+      key: '',
       date: formattedDate
     });
 
